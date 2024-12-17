@@ -1,0 +1,42 @@
+body{
+    direction: rtl;
+    display: flex;
+   
+    background-color: rgb(255, 255, 255);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+h2{
+    padding: 20px 0;
+
+}
+
+p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: right;
+
+}
+
+.container{
+    padding-top: 150px;
+}
+.progress{
+    height: 5px;
+}
+.progress-bar{
+    background-color: #f58;
+    width: 0;
+    height: 5px;
+}
